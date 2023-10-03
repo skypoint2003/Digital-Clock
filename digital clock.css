@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1d52ba;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.clock {
+    font-size: 3em;
+    font-weight: bold;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 50px;
+    border: solid;
+    box-shadow: 0 0 1000px rgb(15, 183, 255);
+}
+
+#time {
+    text-align: center;
+}
+
+/* Style the colon between hours, minutes, and seconds */
+.colon {
+    font-size: 2em;
+    vertical-align: middle;
+    margin: 0 0.2em;
+}
+/* Existing styles from previous code... */
+
+#date {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
